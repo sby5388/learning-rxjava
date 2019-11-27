@@ -6,3 +6,6 @@ build
 cache
 *.iml
 .idea
+out
+local.properties
+.settings

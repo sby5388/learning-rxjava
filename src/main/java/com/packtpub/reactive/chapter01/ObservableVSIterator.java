@@ -1,5 +1,7 @@
 package com.packtpub.reactive.chapter01;
 
+import com.packtpub.reactive.common.Program;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -7,8 +9,6 @@ import java.util.List;
 import rx.Observable;
 import rx.functions.Action0;
 import rx.functions.Action1;
-
-import com.packtpub.reactive.common.Program;
 
 /**
  * Demonstrate the differences between Iterators and Observables.
@@ -46,7 +46,7 @@ public class ObservableVSIterator implements Program {
 			}
 		}, new Action0() {
 			public void call() {
-				System.out.println("We've finnished!"); // (2)
+				System.out.println("We've finished!"); // (2)
 			}
 		});
 	}
